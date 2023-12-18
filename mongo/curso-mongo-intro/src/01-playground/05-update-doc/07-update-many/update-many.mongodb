@@ -1,0 +1,11 @@
+use("sample_training")
+db.zips.updateMany(
+    //query
+    {city: "CLEVELAND"},
+    //operacion
+    {
+        $inc: {
+            pop: 1000
+        }
+    }
+)
