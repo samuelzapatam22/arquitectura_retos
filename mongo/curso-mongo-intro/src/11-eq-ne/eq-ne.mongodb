@@ -1,0 +1,10 @@
+use("platzi_store")
+
+//using $eq
+//db.inventory.find({"item.code": "123"})
+//db.inventory.find({"item.code":  {$eq:"123"}})
+
+
+//using $ne
+db.inventory.find({qty:  {$ne: 20}})
+// trae todos los productos donde la qty sea != 20
