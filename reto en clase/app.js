@@ -21,4 +21,13 @@ app.post('/weather', (req, res) => {
     res.send(weatherData);
 });
 
-
+// Función de simulación de datos para la API del clima
+function getMockWeatherData(city) {
+    return {
+        city: city,
+        temperature: Math.floor(Math.random() * 30) + 1,
+        humidity: Math.floor(Math.random() * 100) + 1,
+        pressure: Math.floor(Math.random() * 1000) + 1,
+        wind: Math.floor(Math.random() * 20) + 1
+    };
+}
