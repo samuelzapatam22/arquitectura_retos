@@ -15,4 +15,10 @@ app.get('/api/weather/:city', (req, res) => {
 });
 
 // Ruta para el endpoint /weather
+app.post('/weather', (req, res) => {
+    const city = req.body.city;
+    const weatherData = getMockWeatherData(city);
+    res.send(weatherData);
+});
+
 
