@@ -10,7 +10,7 @@ async function fetchWeather() {
         const apiKey = '1c78da2e186c63f952450c9b21bc8a5b';
 
         // Realizar una solicitud a la API de OpenWeatherMap para obtener datos del clima
-        const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}');
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`);
         const weatherData = await response.json();
 
         // Mostrar la información del clima en el contenedor

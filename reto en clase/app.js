@@ -50,7 +50,8 @@ app.post('/weather', async (req, res) => {
     }
 });
 
+
 // Inicio del servidor Express y escucha en el puerto especificado
 app.listen(port, () => {
-    console.log('Server listening at http://localhost:${port}');
+    console.log(`Server listening at http://localhost:${port}`);
 });
