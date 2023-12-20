@@ -57,3 +57,22 @@ El proyecto está organizado de la siguiente manera:
 
 La elección de una arquitectura monolítica para Weather APP se debe a su **simplicidad y rapidez** en el desarrollo, facilitando el despliegue y la coordinación. Esto es especialmente beneficioso para peste pequeño proyecto con requisitos claros y tiempos de entrega rápidos. Aunque la escalabilidad puede ser limitada y el mantenimiento a largo plazo más desafiante, la arquitectura monolítica resulta **eficiente y fácil de depurar** para Weather APP.
 
+- **Microservicios:**
+
+1. **División :**
+   - Crearía microservicios separados para las funcionalidades principales, como la consulta del clima y la gestión del formulario, para mejorar la modularidad.
+
+2. **Endpoint Específico para Clima:**
+   - Un microservicio dedicado gestionaría el endpoint `/api/weather/:city`, manejando la lógica de consulta y devolviendo datos climáticos reales utilizando la API de OpenWeatherMap.
+
+3. **Microservicio de Frontend:**
+   - Implementaría un microservicio independiente para manejar el formulario de consulta y la presentación de resultados, permitiendo una gestión flexible de la interfaz de usuario.
+
+4. **Comunicación entre Microservicios:**
+   - Establecería una comunicación eficiente entre los microservicios mediante HTTP o un protocolo de comunicación adecuado.
+
+
+
+Con este README, tienes toda la información necesaria para entender la estructura y funcionamiento básico de Weather APP. Siéntete libre de contribuir o realizar mejoras al proyecto. ¡Disfruta explorando el clima de diferentes ciudades!
+
+   
