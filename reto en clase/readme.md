@@ -14,3 +14,21 @@ El proyecto está organizado de la siguiente manera:
     
  Contiene archivos estáticos (HTML, CSS, JS) para el frontend.
 - **app.js**: Archivo principal del servidor monolítico.
+
+
+## Configuración e Instalación
+
+1. **Instalación de Dependencias:**
+
+   ```bash
+   npm install
+   ```
+
+2. **Ejecución de la Aplicación:**
+
+   ```bash
+   npm start
+   ```
+
+   La aplicación se ejecutará en [http://localhost:3000](http://localhost:3000).
+   
