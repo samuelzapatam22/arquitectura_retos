@@ -31,3 +31,7 @@ function getMockWeatherData(city) {
         wind: Math.floor(Math.random() * 20) + 1
     };
 }
+
+app.listen(port, () => {
+    console.log(`Server listening at http://localhost:${port}`);
+});
