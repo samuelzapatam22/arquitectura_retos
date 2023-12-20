@@ -31,7 +31,7 @@ El proyecto está organizado de la siguiente manera:
    ```
 
    La aplicación se ejecutará en [http://localhost:3000](http://localhost:3000).
-   
+
 
    ## Funcionalidades
 
@@ -51,7 +51,9 @@ El proyecto está organizado de la siguiente manera:
   - Endpoint `/api/weather/:city` que devuelve información del clima de la ciudad especificada en la ruta, incluyendo temperatura actual, humedad, presión atmosférica y velocidad del viento.
 
 
+## Arquitecturas
 
+- **Monolìtica:**
 
+La elección de una arquitectura monolítica para Weather APP se debe a su **simplicidad y rapidez** en el desarrollo, facilitando el despliegue y la coordinación. Esto es especialmente beneficioso para peste pequeño proyecto con requisitos claros y tiempos de entrega rápidos. Aunque la escalabilidad puede ser limitada y el mantenimiento a largo plazo más desafiante, la arquitectura monolítica resulta **eficiente y fácil de depurar** para Weather APP.
 
-   
