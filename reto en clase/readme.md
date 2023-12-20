@@ -32,3 +32,26 @@ El proyecto está organizado de la siguiente manera:
 
    La aplicación se ejecutará en [http://localhost:3000](http://localhost:3000).
    
+
+   ## Funcionalidades
+
+- **Formulario de Consulta de Clima:**
+
+    ![Alt text](imagen1.png)
+
+
+  - Endpoint `/weather` que muestra un formulario para que el usuario ingrese el nombre de una ciudad.
+  - Al enviar el formulario, la aplicación llama al endpoint anterior para obtener la información del clima y la muestra en la página web.
+
+- **Consulta de Clima por Ciudad:**
+
+    ![Alt text](imagen2.png)
+
+
+  - Endpoint `/api/weather/:city` que devuelve información del clima de la ciudad especificada en la ruta, incluyendo temperatura actual, humedad, presión atmosférica y velocidad del viento.
+
+
+
+
+
+   
